@@ -1,0 +1,582 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass beamer
+\begin_preamble
+\usetheme{/Amsterdamred}
+
+\usepackage{epstopdf}
+\usepackage[T1]{fontenc}
+\usepackage{ae,aecompl}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language swedish
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Laboratorio de Programación (300CIP007)
+\end_layout
+
+\begin_layout Author
+Luis Garreta
+\begin_inset Newline newline
+\end_inset
+
+luis.garreta@javerianacali.edu.co
+\end_layout
+
+\begin_layout Institute
+
+\series medium
+Ingeniería de Sistemas y Computación
+\begin_inset Newline newline
+\end_inset
+
+Pontificia Universidad Javeriana – Cali
+\end_layout
+
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Información Básica
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Créditos: 2 
+\end_layout
+
+\begin_layout Itemize
+Horas
+\begin_inset space ~
+\end_inset
+
+de
+\begin_inset space ~
+\end_inset
+
+Clase: 3 / semana 
+\end_layout
+
+\begin_layout Itemize
+Horas
+\begin_inset space ~
+\end_inset
+
+de
+\begin_inset space ~
+\end_inset
+
+trabajo independiente: 4 / semana 
+\end_layout
+
+\begin_layout Itemize
+Prerequisitos: Introducción a la Programación (300CIP001) 
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Objetivos Instruccionales 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+Al finalizar el curso los participantes podrán: 
+\end_layout
+
+\begin_layout Itemize
+Diseñar y describir apropiadamente la solución de problemas básicos de la
+ computación.
+ 
+\end_layout
+
+\begin_layout Itemize
+Utilizar diferentes técnicas de programación para solucionar problemas.
+ 
+\end_layout
+
+\begin_layout Itemize
+Reconocer la necesidad y utilidad de documentar apropiadamente el código
+ fuente.
+ 
+\end_layout
+
+\begin_layout Itemize
+Usar herramientas útiles para desarrollo de proyectos.
+ 
+\end_layout
+
+\begin_layout Itemize
+Identificar las principales características prácticas de los lenguajes de
+ programación compilados.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Competencias que se Desarrollan
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Habilidades específicas: Uso del lenguaje C, compilador Gcc y herramienta
+ Make.
+ 
+\end_layout
+
+\begin_layout Itemize
+Conceptos Fundamentales de Computación: Diseño de algoritmos, programación
+ modular y manejo de interprete de comandos y documentación de código fuente.
+ 
+\end_layout
+
+\begin_layout Itemize
+Competencias Generales: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Desarrollo modular de programas.
+ 
+\end_layout
+
+\begin_layout Itemize
+Análisis y diseño de soluciones con pseudocódigo.
+ 
+\end_layout
+
+\begin_layout Itemize
+Lectura y escritura de archivos.
+ 
+\end_layout
+
+\begin_layout Itemize
+Trabajo en grupo, escritura de reportes.
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Metodología 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+El curso es presencial y con alta dosis de participación y trabajo en clase.
+ 
+\end_layout
+
+\begin_layout Itemize
+Para algunas sesiones de clase se asignarán investigaciones, ejercicios
+ y lecturas.
+ 
+\end_layout
+
+\begin_layout Itemize
+Durante la sesión se expondrán los conceptos acompañados de ejemplos
+\end_layout
+
+\begin_layout Itemize
+Se fomentará la participación de los estudiantes.
+ 
+\end_layout
+
+\begin_layout Itemize
+Se realizarán talleres en el que se ponga en práctica algunos conceptos
+ de computación y exámenes de seguimiento de avance.
+ 
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Contenido
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+
+\series bold
+\size small
+Introducción :
+\series default
+ Pseudocódigo, lenguajes compilados, lenguaje C, compilador gcc, entradas
+ y salidas.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size small
+Operadores, asignación, lógicas, prescendencia.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\size small
+Lenguaje C:
+\series default
+ tipos de errores, manejo de cadenas, operadores, prescendencia, incrementos
+ y decrementos, prioridad y asociatividad.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\size small
+División entre cabeceras e implementación, directivas.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\size small
+Sentencias:
+\series default
+ if, if anidadas, if else, ciclos while, switch, do-while, for, break,continue.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\size small
+Codificación:
+\series default
+ Herramienta make, Documentación de código.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\size small
+Manejo de memoria:
+\series default
+ Punteros, Arreglos, Cadenas, Matrices
+\end_layout
+
+\begin_layout Itemize
+
+\size small
+Memoria dinámica, typedef, structs, enums.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\size small
+Archivos:
+\series default
+ Lectura/escritura de archivos de texto y binarios.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\size small
+Algoritmos de ordenamiento:
+\series default
+ Burbuja, Selection-Insertion, Quick sort, Merge sort.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\size small
+Estructuras de Datos Lineales:
+\series default
+ listas sencillas, listas doblemente enlazadas, pilas y colas.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\size small
+Estructuras de Datos Tipo Red:
+\series default
+ Árboles binarios, Grafos.
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Evaluación
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Parcial 1: 30%
+\end_layout
+
+\begin_layout Itemize
+Parcial 2: 30%
+\end_layout
+
+\begin_layout Itemize
+Proyecto: 20%
+\end_layout
+
+\begin_layout Itemize
+Quizes, talleres, otros: 20%
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Bibliografía
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Programación en C.
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_C
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Herbert Schildt, Programación en lenguaje C.
+ McGraw-Hill, 1988.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Harvey M.
+ Deitel, Paul J.
+ Deitel, Como programar en C/C++.
+ 6th Edicion.
+ Prentice Hall Hispanoamericana, 2010.
+\end_layout
+
+\begin_layout Enumerate
+Brian W.
+ Kernighan, Dennis M.
+ Ritchie, El lenguaje de programación C.
+ Prentice Hall Hispanoamericana, 1985.
+ 
+\end_layout
+
+\begin_layout Enumerate
+James F.
+ Peters, Hamed M.
+ Sallam, Compleat C.
+ Prentice Hall, 1986.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Aaron M.
+ Tenenbaum, Langsam Yedidyah, Moshe J.
+ Augenstein, Data structures using C.
+ Prentice Hall, 1990.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Visualising data structures and algorithms through animation http://visualgo.net/
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Material de este semestre
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Editor online:http://www.tutorialspoint.com/compile_c_online.php
+\end_layout
+
+\begin_layout Itemize
+Curso en el moodle
+\end_layout
+
+\begin_layout Itemize
+...Otros para más adelante.
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\end_body
+\end_document

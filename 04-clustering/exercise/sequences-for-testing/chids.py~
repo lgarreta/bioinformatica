@@ -1,0 +1,13 @@
+#!/usr/bin/python
+
+import sys
+args = sys.argv
+
+
+for line in open (args[1]):
+    if ">" in line:
+        newLine = line.split("|")
+        print (newLine)
+    else:
+        print (line.strip())
+    
